@@ -4,6 +4,8 @@ This project implements a scalable, decoupled face recognition system built on A
 Architecture Overview
 The system is designed to handle high-concurrency requests by separating the ingestion, orchestration, processing, and retrieval layers into distinct, asynchronous components.
 
+![Architecture Diagram](architecture_diagram.png)
+
 Core Components
 Web Tier: Acts as the entry point, handling API requests, managing the S3 upload process, and hosting the custom orchestration logic.
 
